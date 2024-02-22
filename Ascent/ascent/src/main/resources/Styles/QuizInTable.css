@@ -1,0 +1,70 @@
+.quizInTable:nth-child(even){
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #DEDEDE;
+    /*border: 1px solid black;*/
+    flex-direction: row;
+}
+.quizInTable:nth-child(odd){
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    flex-direction: row;
+    /*gap: 10px;*/
+}
+.quizInTableName a{
+    text-decoration: none;
+    color: blue;
+}
+.quizInTableName{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.quizInTableQuestionAmount{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.3;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.quizInTableDifficulty{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.quizInTableLinkedCourse{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.quizInTableCreatedBy{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.quizInTableCreatedDate{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}

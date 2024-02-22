@@ -1,0 +1,127 @@
+.myTrainingContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*background-color: black;*/
+}
+.myTrainingDisplayWindow{
+    background-image: url("../Images/ascentBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.myTrainingTitle{
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 100px;
+}
+/*Search Bar =====================================================*/
+.myTrainingSearchBar{
+    display: flex;
+    /*background-color: red;*/
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    /*background-color: transparent;*/
+}
+.searchBar input {
+    width: 600px;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*.searchBar button[type="submit"] {*/
+/*    background-color: black;*/
+/*    border: none;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 0 5px 5px 0;*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    transition: .9s ease;*/
+/*    width: 120px;*/
+/*}*/
+/*.searchBar button[type="submit"]:hover {*/
+/*    transform: scale(1.1);*/
+/*    color: rgb(255, 255, 255);*/
+/*    background-color: white;*/
+/*}*/
+/*==============================================================*/
+.myTrainingBottom{
+    display: flex;
+    /*background-color: blue;*/
+    min-height: 90vh;
+}
+.myTrainingBottomBlank{
+    display: flex;
+    /*background-color: green;*/
+    flex: 1.5;
+}
+.myTrainingFilters{
+    display: flex;
+    flex-direction: column;
+    /*background-color: orange;*/
+    flex: 0.5;
+    /*gap: 5px;*/
+}
+.myTrainingFiltersTitle{
+    display: flex;
+    /*background-color: blue;*/
+    height: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    overflow: hidden;
+}
+.myTrainingFiltersOptions{
+    display: flex;
+    /*background-color: blue;*/
+    height: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+}
+
+/*Card Content Grid =====================================================*/
+.myTraining-PlanCatalog{
+    /*background-color: red;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    grid-gap: 40px; /* Gap between grid items */
+    /*padding-left: 20px;*/
+    /*padding-top: 20px;*/
+    padding: 20px;
+    flex: 2;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*max-height: 350px;*/
+    height: 100%;
+}
+.gridItem {
+    background-color: #3498db; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 20px;
+    text-align: center;
+    /*height: 350px;*/
+}
+/*====================================================================*/
+
+.assignedPlansPageScroll{
+    display: flex;
+    /*background-color: transparent;*/
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+}
+.assignedPlansPageScroll p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+TO FIX NODE MODULES OVERLAPS
+
+-DON'T PUSH NODE MODULES 
+
+IF YOU DO PUSH NODE MODULES
+
+1.open terminal in "ascent" in IntelliJ
+2.  Into terminal, type: rm node_modules
+3. put A/Yes to All
+4.Same terminal type: npm install 

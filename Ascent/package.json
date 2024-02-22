@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jest-worker": "^29.7.0"
+  },
+  "devDependencies": {
+    "workbox-webpack-plugin": "^7.0.0"
+  }
+}

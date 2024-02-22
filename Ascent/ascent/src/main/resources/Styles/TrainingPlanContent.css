@@ -1,0 +1,183 @@
+.trainingPlanContentContainerNew{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+}
+.trainingPlanContentBackground{
+    display: flex;
+    background-color: white;
+    /*background-image: url("../Images/ascentBackground.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0 -200px;*/
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+.trainingPlanContentMainContainer{
+    display: flex;
+    /*background-color: red;*/
+    min-height: 95vh;
+    width: 80%;
+    flex-direction: column;
+}
+/*Search Bar Filters ============================================================*/
+.trainingPlanContentSearchFilter{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 7vh;
+    flex-direction: row;
+}
+.trainingPlanContentTitle{
+    display: flex;
+    /*background-color: red;*/
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.trainingPlanContentTitle h1{
+    margin: 0;
+    font-size: 35px;
+    /*background-color: white;*/
+}
+.trainingPlanContentTitle p{
+    margin: 10px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+    /*background-color: green;*/
+}
+.trainingPlanContentProgressBar{
+    display: flex;
+    /*background-color: green;*/
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.trainingPlanContentProgressBarComplete{
+    background-color: blue;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    width: 40%;
+    height: 40%;
+}
+.trainingPlanContentProgressBarRemaining{
+    display: flex;
+    background-color: white;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    width: 20%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*Course Filters ============================================================*/
+.trainingPlanContentInfoFilter{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+    flex-direction: row;
+    /*gap: 10px;*/
+}
+.trainingPlanContentInfoFilterCourseStatus{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.25;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.trainingPlanContentInfoFilterCourseName{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanContentInfoFilterCourseType{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+/* Style for the dropdown content */
+.dropdownTypeContent {
+    /*display: none;*/
+    position: absolute;
+    width: 100%; /* Adjust width if needed */
+    background-color: white;
+    z-index: 1;
+}
+.dropdownTypeContent select{
+    width: 60%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    /*border: none;*/
+}
+
+.trainingPlanContentInfoFilterDescription{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanContentInfoFilterCreatedBy{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanContentInfoFilterDueDate{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanContentInfoFilterQuiz{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.25;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanContentInfoFilterQuiz p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanContentPageScroll{
+    display: flex;
+    /*background-color: green;*/
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+}
+.trainingPlanContentPageScroll p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.courseInPlan:nth-child(even){
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #DEDEDE;
+    /*border: 1px solid black;*/
+    flex-direction: row;
+}
+.courseInPlan:nth-child(odd){
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    flex-direction: row;
+    /*gap: 10px;*/
+}
+.courseInPlanStatus{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.25;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.courseInPlanStatusIndicatorEmpty{
+    display: flex;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px black solid;
+}
+.courseInPlanStatusIndicatorFilled{
+    display: flex;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.courseInPlanName a{
+    text-decoration: none;
+    color: blue;
+}
+.courseInPlanName{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInPlanType{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInPlanDescription{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInPlanCreatedBy{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInPlanDueDate{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInPlanQuiz{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.25;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInPlanQuiz a{
+    text-decoration: none;
+    color: #0000FF;
+}

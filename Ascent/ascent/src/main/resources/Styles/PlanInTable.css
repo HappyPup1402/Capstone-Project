@@ -1,0 +1,70 @@
+.planInTable:nth-child(even){
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #DEDEDE;
+    /*border: 1px solid black;*/
+    flex-direction: row;
+}
+.planInTable:nth-child(odd){
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    flex-direction: row;
+    /*gap: 10px;*/
+}
+.planInTableName a{
+    text-decoration: none;
+    color: blue;
+}
+.planInTableName{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.planInTableTrainingArea{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.planInTableDescription{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.planInTableCreatedBy{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.planInTableCreatedDate{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.planInTableModify{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}

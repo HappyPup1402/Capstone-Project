@@ -1,0 +1,173 @@
+.trainingPlanContainerNew{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+}
+.trainingPlanBackground{
+    display: flex;
+    background-color: white;
+    /*background-image: url("../Images/ascentBackground.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0 -200px;*/
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+.trainingPlanMainContainer{
+    display: flex;
+    /*background-color: red;*/
+    min-height: 95vh;
+    width: 80%;
+    flex-direction: column;
+}
+/*Search Bar Filters ============================================================*/
+.trainingPlanSearchFilter{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 7vh;
+    flex-direction: row;
+}
+.trainingPlanTitle{
+    display: flex;
+    /*background-color: red;*/
+    flex: 0.25;
+    align-items: center;
+}
+.trainingPlanTitle h1{
+    margin: 0;
+    font-size: 35px;
+}
+.trainingPlanDateSearch{
+    display: flex;
+    /*background-color: green;*/
+    flex: 0.75;
+    justify-content: end;
+    align-items: center;
+}
+.trainingPlanDateSearch input[type="text"]{
+    height: 50%;
+    width: 20%;
+    border: 2px solid #DEDEDE;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+
+}
+.trainingPlanDateSearch input[type="search"]{
+    width: 30%;
+    height: 50%;
+    border: 2px solid #DEDEDE;
+    outline: none;
+    font-size: 15px;
+    margin-left: 100px;
+    /*border-radius: 5px 0 0 5px;*/
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+/*.trainingPlanDateSearch button[type="submit"]{*/
+/*    background-color: black;*/
+/*    border: none;*/
+/*    color: #fff;*/
+/*    width: 7%;*/
+/*    height: 50%;*/
+/*    font-size: 17px;*/
+/*    font-weight: bold;*/
+/*    cursor: pointer;*/
+/*    !*border-radius: 0 5px 5px 0;*!*/
+/*    !*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*!*/
+/*}*/
+.newTrainingPlanButton{
+    display: flex;
+    height: 50%;
+    width: 8%;
+    margin-left: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3939dc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+/*trainingPlan Filters ============================================================*/
+.trainingPlanInfoFilter{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+    flex-direction: row;
+    /*gap: 10px;*/
+}
+.trainingPlanInfoFilterTrainingPlanName{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.trainingPlanInfoFilterTrainingArea {
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+.trainingPlanInfoFilterDescription{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+.trainingPlanInfoFilterCreatedBy{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanInfoFilterCreateDate{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanInfoFilterModify{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.trainingPlanPageScroll{
+    display: flex;
+    /*background-color: green;*/
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+}
+.trainingPlanPageScroll p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}

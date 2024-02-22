@@ -1,0 +1,236 @@
+.newCourseContainer {
+    display: flex;
+    flex-direction: column;
+    /*background-color: black;*/
+    min-height: 100vh;
+}
+
+.newCourseContent {
+    display: flex;
+    /*background-color: black;*/
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Images/ascentBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.createNewCourseBox {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: 70%;
+    min-height: fit-content;
+    /*flex-direction: column;*/
+    flex-direction: row;
+    border-radius: 25px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
+    gap: 10px;
+}
+
+.createNewCourseBoxLeft {
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.3;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createNewCourseBoxLeftTitle h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.createNewCourseBoxMiddle {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.createNewCourseBoxMiddleBlank {
+    display: flex;
+    /*background-color: green;*/
+    flex: 0.5;
+}
+
+.createNewCourseBoxMiddleRow {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createNewCourseBoxMiddleRow p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px 0 0;
+}
+
+.createNewCourseBoxMiddleRow input[type="text"] {
+    width: 70%;
+    height: 50px;
+    position: relative;
+    margin: 0 40px 0 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;;
+    font-weight: 500;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25)
+}
+.createNewCourseBoxMiddleRow input[type="text"]:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+
+.createNewCourseBoxMiddleRow select {
+    width: 70%;
+    height: 50px;
+    margin: 0 40px 0 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: none;
+}
+
+.createNewCourseBoxMiddleRow select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+.newCourseDescription {
+    width: 70%;
+    height: 100px;
+    margin: 0 40px 0 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    resize: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.newCourseDescription:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+
+.createNewCourseBoxRight {
+    display: flex;
+    /*background-color: red;*/
+    flex: 0.3;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    /*margin: 30px 30px 30px 0;*/
+}
+
+.newCourseDemoCard {
+    display: flex;
+    background-color: #f1f1f1;
+    width: 70%;
+    height: 45%;
+    flex-direction: column;
+    gap: 5px;
+    margin: 60px 80px 0 0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.newCourseDemoCardImage {
+    display: flex;
+    background-color: transparent;
+    flex: 1.5;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+
+}
+
+.newCourseDemoCardImage img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.newCourseDemoCardTitle {
+    display: flex;
+    background-color: white;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.newCourseDemoCardTitle p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.newCourseDemoCardDescription {
+    display: flex;
+    background-color: white;
+    flex: 1;
+    overflow: hidden;
+}
+
+.newCourseDemoCardDescription p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.newCourseDemoCardType {
+    display: flex;
+    background-color: white;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newCourseDemoCardType p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+.newCourseSubmit {
+    width: 100px;
+    height: 50px;
+    background-color: #3939dc;
+    border-radius: 10px;
+    border: none;
+    margin: 0 20px 20px 0;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.newCourseSubmit:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,354 @@
+.mainPageContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.mainPageTop{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.trend{
+    display: flex;
+    /*background-color: blue;*/
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 50px;
+    border-right: 1px solid #DEDEDE;
+}
+.trendText{
+    display: flex;
+    /*background-color: red;*/
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.trendRight{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.trendText p{
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.progressPercentage{
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.rightTrendTop{
+    display: flex;
+    /*background-color: blue;*/
+    width: 100%;
+    height: 10%;
+}
+.rightTrendMiddle{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+    align-items: center;
+    justify-content: space-between;
+}
+.rightTrendBottom{
+    display: flex;
+    /*background-color: blue;*/
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: end;
+}
+.rightTrendBottom p{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.timeFilter{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    /*text-align: center;*/
+    color: #0033ff;
+    appearance: none;
+    padding: 0 5px;
+}
+.timeFilter:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.trainingProgress{
+    display: flex;
+    background-color: white;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-right: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainPageBottom{
+    display: flex;
+    /*background-color: red;*/
+    height: 65vh;
+    flex-grow: 1;
+}
+.toDo{
+    display: flex;
+    /*background-color: purple;*/
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.toDoBox{
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+}
+.toDoText{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+.toDoRequiredTrainings{
+    display: flex;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+.tabs{
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.tabName{
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 10px;
+    margin: 0;
+}
+.tabCircle{
+    display: flex;
+    /*background-color: #54a5ff;*/
+    border: 1px solid #54a5ff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.tabCircleText{
+    font-weight: bold;
+    font-size: 20px;
+    color: #54a5ff;
+}
+.tabsActiveTab{
+    display: flex;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.tabNameActive{
+    color: #54a5ff;
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 10px;
+    margin: 0;
+}
+.tabCircleActive{
+    display: flex;
+    background-color: #54a5ff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.tabCircleTextActive{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.toDoBlank{
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+}
+
+.mainPageRequiredContentContainer{
+    display: flex;
+    /*background-color: blue;*/
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    flex-direction: column;
+}
+.mainPageRequiredContentDescriptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /*background-color: red;*/
+    width: 100%;
+    height: 25%;
+    /*padding-left: 10px;*/
+}
+.mainPageRequiredContentDescriptionsGridItem{
+    display: flex;
+    align-items: end;
+    /*background-color: yellow;*/
+}
+.requiredContentText{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+.contentNameActive{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+.contentName{
+    display: none;
+}
+.mainPageRequiredContentDescriptionsGridItemLeft{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #DEDEDE;
+    /*background-color: red;*/
+}
+.requiredContentFiltersLeft1{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 25px;
+}
+.requiredContentFiltersLeft2{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 0 410px;
+    padding-top: 25px;
+}
+.mainPageRequiredContentDescriptionsGridItemRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    gap: 20rem;
+    border-bottom: 1px solid #DEDEDE;
+}
+.requiredContentFiltersRight{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 25px;
+}
+.mainPageRequiredContent{
+    display: flex;
+    /*background-color: red;*/
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.tableInMainPage:nth-child(even){
+    display: flex;
+    background-color: #DEDEDE;
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+}
+.tableInMainPage:nth-child(odd){
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.mainPageTableContentTitle{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    font-size: 22px;
+    align-items: center;
+    /*background-color: red;*/
+
+}
+.mainPageTableContentTitle a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+
+}
+
+.mainPageTableContentType{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    font-size: 22px;
+    justify-content: start;
+    align-items: center;
+    /*background-color: orange;*/
+}
+
+.mainPageTableContentCreatedBy{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    font-size: 22px;
+    justify-content: start;
+    align-items: center;
+    /*background-color: green;*/
+}
+
+.mainPageTableContentDueDate{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    font-size: 22px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+    /*background-color: red;*/
+}

@@ -1,0 +1,69 @@
+.courseInTable:nth-child(even){
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #DEDEDE;
+    /*border: 1px solid black;*/
+    flex-direction: row;
+}
+.courseInTable:nth-child(odd){
+     display: flex;
+     height: 60px;
+     width: 100%;
+     background-color: white;
+     /*border: 1px solid black;*/
+     flex-direction: row;
+ }
+.courseInTableName a{
+    text-decoration: none;
+    color: blue;
+}
+.courseInTableName{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.courseInTableType{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInTableDescription{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInTableCreatedBy{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInTableCreatedDate{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.75;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.courseInTableModify{
+    display: flex;
+    /*background-color: orange;*/
+    flex: 0.5;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}

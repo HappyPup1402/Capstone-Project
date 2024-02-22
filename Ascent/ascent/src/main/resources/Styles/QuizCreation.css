@@ -1,0 +1,236 @@
+.newQuizContainer {
+    display: flex;
+    flex-direction: column;
+    /*background-color: black;*/
+    min-height: 100vh;
+}
+
+.newQuizContent {
+    display: flex;
+    /*background-color: black;*/
+    min-height: 95vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Images/ascentBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.createNewQuizBox {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    min-height: fit-content;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
+    gap: 10px;
+}
+
+.createNewQuizBoxTopRow {
+    display: flex;
+    /*background-color: green;*/
+    height: 5vh;
+    align-items: center;
+}
+.createNewQuizBoxTopRow h1{
+    margin: 0 0 0 10px;
+}
+.createNewQuizBoxRow {
+    display: flex;
+    /*background-color: green;*/
+    height: 6vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.createNewQuizBoxRow p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.createNewQuizBoxRow input[type="text"] {
+    width: 70%;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;;
+    font-weight: 500;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25)
+}
+.createNewQuizBoxRow input[type="text"]:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+.createNewQuizBoxRow select {
+    width: 70%;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: none;
+}
+.createNewQuizBoxRow select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+.createNewQuizBoxRow input[type="number"] {
+    width: 70%;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;;
+    font-weight: 500;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25)
+}
+.createNewQuizBoxRow input[type="number"]:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+.createNewQuizAddDeleteRow{
+    display: flex;
+    /*background-color: green;*/
+    height: 6vh;
+    align-items: center;
+    justify-content: start;
+}
+.addQuestion{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.addQuestion:hover{
+    opacity: 0.8;
+}
+.deleteQuestion{
+    width: 150px;
+    height: 50px;
+    background-color: #e50e0e;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.deleteQuestion:hover{
+    opacity: 0.8;
+}
+
+.createNewQuizBoxBottomRow{
+    display: flex;
+    /*background-color: green;*/
+    height: 6vh;
+    align-items: center;
+    justify-content: end;
+}
+.newQuizSubmit {
+    width: 100px;
+    height: 50px;
+    background-color: #3939dc;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.newQuizSubmit:hover{
+    opacity: 0.8;
+}
+.error-message{
+    margin-right: 10px;
+}
+
+/*Questions-------------------------------------------------------*/
+.createNewQuizBoxRowQuestions {
+    display: flex;
+    /*background-color: green;*/
+    height: 5vh;
+    align-items: center;
+}
+.createNewQuizBoxRowQuestions h1{
+    margin: 0 0 0 10px;
+}
+.createNewQuizBoxRowNewQuestion {
+    display: flex;
+    /*background-color: green;*/
+    /*min-height: 50px;*/
+    height: fit-content;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.question-number{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #3939dc;
+}
+.createNewQuizBoxRowNewQuestion input[type="text"]{
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;;
+    font-weight: 500;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25)
+}
+.createNewQuizBoxRowNewQuestion input[type="text"]:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+.createNewQuizBoxRowNewOption{
+    flex-direction: row;
+    width: 100%;
+}
+.createNewQuizBoxRowNewQuestion select{
+    width: 20%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;;
+    font-weight: 500;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25)
+}
+.createNewQuizBoxRowNewQuestion select:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 2px solid #54a5ff;
+}
+
+.newQuizAddOption{
+    margin-left: 40px;
+}
+
+
